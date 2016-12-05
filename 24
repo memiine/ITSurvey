@@ -1,0 +1,52 @@
+[
+    {
+        "Others, x; Company limited, Public company limited, x; Juristic partnership, x; individual proprietor, x": [
+            "      Business Trade and Services", 
+            "      Manufacturing", 
+            "      Construction", 
+            "      Land Transport and Storage", 
+            "      Private Hospital", 
+            "      Information and Communication"
+        ]
+    }, 
+    {
+        "Others, y": [
+            "1.4", 
+            "0.4", 
+            "-", 
+            "-", 
+            "13.7", 
+            "0.8"
+        ]
+    }, 
+    {
+        "Company limited, Public company limited, y": [
+            "30.7", 
+            "27.8", 
+            "69.3", 
+            "62.1", 
+            "78.2", 
+            "55.4"
+        ]
+    }, 
+    {
+        "Juristic partnership, y": [
+            "6.5", 
+            "9.0", 
+            "13.6", 
+            "21.8", 
+            "8.1", 
+            "2.2"
+        ]
+    }, 
+    {
+        "individual proprietor, y": [
+            "61.4", 
+            "62.8", 
+            "17.1", 
+            "16.1", 
+            "-", 
+            "41.6"
+        ]
+    }
+]

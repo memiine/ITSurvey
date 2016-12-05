@@ -1,0 +1,199 @@
+# Get this figure: fig = py.get_figure("https://plot.ly/~latiez/23/")
+# Get this figure's data: data = py.get_figure("https://plot.ly/~latiez/23/").get_data()
+# Add data to this figure: py.plot(Data([Scatter(x=[1, 2], y=[2, 3])]), filename ="table1 2014", fileopt="extend"))
+# Get y data of first trace: y1 = py.get_figure("https://plot.ly/~latiez/23/").get_data()[0]["y"]
+
+# Get figure documentation: https://plot.ly/python/get-requests/
+# Add data documentation: https://plot.ly/python/file-options/
+
+# If you're using unicode in your file, you may need to specify the encoding.
+# You can reproduce this figure in Python with the following code!
+
+# Learn about API authentication here: https://plot.ly/python/getting-started
+# Find your api_key here: https://plot.ly/settings/api
+
+import plotly.plotly as py
+from plotly.graph_objs import *
+py.sign_in('username', 'api_key')
+trace1 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['1.4', '0.4', '-', '-', '13.7', '0.8'],
+    name='Others',
+    uid='32c25e',
+    xsrc='latiez:24:e6a821',
+    ysrc='latiez:24:ca2252'
+)
+trace2 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['30.7', '27.8', '69.3', '62.1', '78.2', '55.4'],
+    name='Company limited, Public company limited',
+    uid='df3986',
+    xsrc='latiez:24:e6a821',
+    ysrc='latiez:24:fdacc7'
+)
+trace3 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['6.5', '9.0', '13.6', '21.8', '8.1', '2.2'],
+    name='Juristic partnership',
+    uid='133853',
+    xsrc='latiez:24:e6a821',
+    ysrc='latiez:24:9a4e36'
+)
+trace4 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['61.4', '62.8', '17.1', '16.1', '-', '41.6'],
+    name='individual proprietor',
+    uid='0f88a8',
+    xsrc='latiez:24:e6a821',
+    ysrc='latiez:24:128d2a'
+)
+data = Data([trace1, trace2, trace3, trace4])
+layout = Layout(
+    autosize=True,
+    height=485,
+    title='Number of Persons Engaged, Bangkok, 2014',
+    width=962,
+    xaxis=XAxis(
+        autorange=True,
+        range=[-0.5, 5.5],
+        type='category'
+    ),
+    yaxis=YAxis(
+        autorange=True,
+        range=[0, 82.31578947368422],
+        type='linear'
+    )
+)
+fig = Figure(data=data, layout=layout)
+plot_url = py.plot(fig)
+
+# Get this figure: fig = py.get_figure("https://plot.ly/~latiez/19/")
+# Get this figure's data: data = py.get_figure("https://plot.ly/~latiez/19/").get_data()
+# Add data to this figure: py.plot(Data([Scatter(x=[1, 2], y=[2, 3])]), filename ="table11 2015 (1)", fileopt="extend"))
+# Get y data of first trace: y1 = py.get_figure("https://plot.ly/~latiez/19/").get_data()[0]["y"]
+
+# Get figure documentation: https://plot.ly/python/get-requests/
+# Add data documentation: https://plot.ly/python/file-options/
+
+# If you're using unicode in your file, you may need to specify the encoding.
+# You can reproduce this figure in Python with the following code!
+
+# Learn about API authentication here: https://plot.ly/python/getting-started
+# Find your api_key here: https://plot.ly/settings/api
+
+import plotly.plotly as py
+from plotly.graph_objs import *
+py.sign_in('username', 'api_key')
+trace1 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['541', '159', '49', '-', '9', '115'],
+    name='Software as a Service',
+    uid='c8bc21',
+    visible=True,
+    xsrc='latiez:18:82fdaa',
+    ysrc='latiez:18:70bbf0'
+)
+trace2 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['1,600', '457', '76', '47', '18', '200'],
+    name='Open Source',
+    uid='811f30',
+    xsrc='latiez:18:82fdaa',
+    ysrc='latiez:18:fb10f1'
+)
+trace3 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['2,114', '408', '55', '46', '13', '128'],
+    name='Tailor made',
+    uid='9ec091',
+    xsrc='latiez:18:82fdaa',
+    ysrc='latiez:18:ff72ea'
+)
+trace4 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['71,825', '11,494', '2,009', '819', '84', '1,734'],
+    name='Package',
+    uid='b40846',
+    xsrc='latiez:18:82fdaa',
+    ysrc='latiez:18:2fd5ee'
+)
+trace5 = Bar(
+    x=['      Business Trade and Services', '      Manufacturing', '      Construction', '      Land Transport and Storage', '      Private Hospital', '      Information and Communication'],
+    y=['4,542', '771', '188', '77', '29', '398'],
+    name='Self Development',
+    uid='dd5697',
+    xsrc='latiez:18:82fdaa',
+    ysrc='latiez:18:0b03da'
+)
+data = Data([trace1, trace2, trace3, trace4, trace5])
+layout = Layout(
+    autosize=True,
+    height=485,
+    title='Selfdev-Package',
+    width=962,
+    xaxis=XAxis(
+        autorange=True,
+        range=[-0.5, 5.5],
+        type='category'
+    ),
+    yaxis=YAxis(
+        autorange=True,
+        range=[0, 75605.26315789473],
+        type='linear'
+    )
+)
+fig = Figure(data=data, layout=layout)
+plot_url = py.plot(fig)
+
+[
+    {
+        "Others, x; Company limited, Public company limited, x; Juristic partnership, x; individual proprietor, x": [
+            "      Business Trade and Services", 
+            "      Manufacturing", 
+            "      Construction", 
+            "      Land Transport and Storage", 
+            "      Private Hospital", 
+            "      Information and Communication"
+        ]
+    }, 
+    {
+        "Others, y": [
+            "1.4", 
+            "0.4", 
+            "-", 
+            "-", 
+            "13.7", 
+            "0.8"
+        ]
+    }, 
+    {
+        "Company limited, Public company limited, y": [
+            "30.7", 
+            "27.8", 
+            "69.3", 
+            "62.1", 
+            "78.2", 
+            "55.4"
+        ]
+    }, 
+    {
+        "Juristic partnership, y": [
+            "6.5", 
+            "9.0", 
+            "13.6", 
+            "21.8", 
+            "8.1", 
+            "2.2"
+        ]
+    }, 
+    {
+        "individual proprietor, y": [
+            "61.4", 
+            "62.8", 
+            "17.1", 
+            "16.1", 
+            "-", 
+            "41.6"
+        ]
+    }
+]
